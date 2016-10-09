@@ -17,11 +17,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self configureViews];
+    [self configureAnimations];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) configureViews {
+    
+}
+
+- (void) configureAnimations {
+    
+}
+
+- (BOOL) prefersStatusBarHidden {
+    return YES;
 }
 
 @end
